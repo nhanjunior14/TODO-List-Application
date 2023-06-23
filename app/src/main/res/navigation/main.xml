@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/nav_todo">
+
+    <fragment
+        android:id="@+id/nav_todo"
+        android:name="project.group.todo.Fragment.TodoFragment"
+        android:label="Nhiệm vụ"
+        tools:layout="@layout/activity_fragment_todo"/>
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="project.group.todo.Fragment.Notification"
+        android:label="Thông báo"
+        tools:layout="@layout/activity_fragment_notification"/>
+
+    <fragment
+        android:id="@+id/nav_save"
+        android:name="project.group.todo.Fragment.Save"
+        android:label="Lưu trữ"
+        tools:layout="@layout/activity_fragment_save"/>
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="project.group.todo.Fragment.Settings"
+        android:label="Cài đặt"
+        tools:layout="@layout/activity_fragment_setting"/>
+
+    <fragment
+        android:id="@+id/nav_delete"
+        android:name="project.group.todo.Fragment.Delete"
+        android:label="Thùng rác"
+        tools:layout="@layout/activity_fragment_delete"/>
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="project.group.todo.Fragment.Account"
+        android:label="Tài khoản"
+        tools:layout="@layout/activity_fragment_account"/>
+
+    <fragment
+        android:id="@+id/nav_changePass"
+        android:name="project.group.todo.Fragment.Account"
+        android:label="Thay đổi mật khẩu"
+        tools:layout="@layout/activity_change_password"/>
+
+    <fragment
+        android:id="@+id/nav_showAccount"
+        android:name="project.group.todo.Fragment.Account"
+        android:label="Quản lí tài khoản"
+        tools:layout="@layout/activity_todolayout"/>
+
+</navigation>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/foreign_main">
+
+        <ImageButton
+            android:id="@+id/btn_Back"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="@drawable/ic_baseline_arrow_back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chỉnh sửa thông tin"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgv_ImageUpdate"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:src="@drawable/nhu_nhi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên của bạn"
+        android:textSize="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle_radius"
+        android:layout_marginTop="8sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp">
+
+
+        <EditText
+            android:id="@+id/edt_NameUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên của bạn"
+            android:textAlignment="center"
+            android:maxLength="64"
+            android:layout_marginStart="10sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ email"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle_radius"
+        android:layout_marginTop="8sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp">
+
+
+        <EditText
+            android:id="@+id/edt_EmailUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập địa chỉ email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:maxLength="128"
+            android:layout_marginStart="10sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>

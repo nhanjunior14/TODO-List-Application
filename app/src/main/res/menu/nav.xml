@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_todo"
+        android:title="@string/nav_todo"
+        android:icon="@drawable/ic_baseline_event_note"/>
+
+    <item
+        android:id="@+id/nav_notification"
+        android:title="@string/nav_notification"
+        android:icon="@drawable/ic_baseline_notifications_active"/>
+
+    <item
+        android:id="@+id/nav_save"
+        android:title="@string/nav_save"
+        android:icon="@drawable/ic_baseline_save"/>
+
+    <item
+        android:id="@+id/nav_delete"
+        android:title="@string/nav_delete"
+        android:icon="@drawable/ic_baseline_delete"/>
+
+    <item
+        android:id="@+id/nav_setting"
+        android:title="@string/nav_setting"
+        android:icon="@drawable/ic_baseline_settings"/>
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="@string/nav_account"
+        android:icon="@drawable/ic_baseline_manage_accounts"/>
+
+</menu>

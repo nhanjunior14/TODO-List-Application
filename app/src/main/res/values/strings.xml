@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TODO</string>
+    <string name="nav_setting">Cài đặt</string>
+    <string name="nav_todo">Nhiệm vụ</string>
+    <string name="nav_notification">Thông báo</string>
+    <string name="nav_save">Lưu trữ</string>
+    <string name="nav_delete">Thùng rác</string>
+    <string name="nav_account">Tài khoản</string>
+    <string name="nav_other">Khác</string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+
+    <!-- Preference Titles -->
+    <string name="language_title">Language</string>
+    <string name="home_title">Home</string>
+
+    <!-- Messages Preferences -->
+    <string name="language_choose">Language</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
